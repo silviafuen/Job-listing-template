@@ -1,6 +1,85 @@
-header, footer {
+header, footer, .job-box {
   background-color: #FBFBFB;
 }
 body {
  background-color: #F6F5F3;
 }
+h2 {
+  font-size: 136%;
+}
+h3 {
+  font-size: 117%;
+}
+h4 {
+  font-size: 103%;
+}
+p, ul {
+  font-size: 89%;
+}
+.nl, .nl:hover {
+  color: #000;
+  text-decoration-color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/*HEADER*/
+navbar {
+  background-color: #FBFBFB;
+}
+.brand-identity {
+  width: 9%;
+}
+.nav-logo {
+  background-color: #FBFBFB;
+  padding: 1%;
+  float: left;
+  width: 10%;
+}
+.nav {
+    text-transform: capitalize;
+    margin: 1%;
+  background-color: #FBFBFB;
+  float: right;
+
+}
+
+/*JOB LISTING COMPANY HEAD*/
+.job-box-title {
+  text-align: center;
+}
+.logo {
+  margin: 0 auto;
+  width: 30%;
+}
+hr {
+  background-color: #000;
+  border:solid;
+  width: 75%;
+}
+
+/*JOB LISTING CONTENT*/
+.content-link,.content-link:hover {
+  text-decoration-color: blue;
+  text-decoration: underline;
+}
+.job-box {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  /*text-align: center;*/
+  padding: 4%;
+  box-shadow: 2px 2px 6px grey;
+}
+
+/*APPLY BUTTON PORTION*/
+.apply {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.btn-apply {
+  background-color: #FACB7E;
+}
+.btn-apply:hover {
+  background-color: #E9B662;
+}
+/*FOOTER*/
